@@ -146,10 +146,18 @@ body {
 }
 .card-button button:hover {
   transform: scale(1.05);
+  background: white;
+  color: hsl(237, 63%, 64%);
+  border: 1px solid gray;
 }
 .card-button.white button {
   background: white;
   color: hsl(237, 63%, 64%);
+}
+.card-button.white button:hover {
+  background: linear-gradient(120deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+  border: 1px solid white;
 }
 @media (max-width: 1024px) {
   .top-background-image {
